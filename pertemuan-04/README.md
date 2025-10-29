@@ -7,3 +7,4 @@ Hari ini,23 Oktober 2025 saya mempelajari :
 <oI>
 <Ii>copy paste isi index.html (pertemuan-03) ke index.html (pertemuan-04)</Ii>
 <Ii>ganti internal css untuk body dan global reset</Ii>
+<II>styling header<Ii>
