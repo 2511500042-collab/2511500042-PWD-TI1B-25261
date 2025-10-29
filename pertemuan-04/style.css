@@ -27,7 +27,7 @@ header ul {
 }
 
 header li a {
-    color:  #fff;
+    color: #f01414;
     text-decoration: none;
     padding: 10px 0 0;
 }
@@ -43,7 +43,7 @@ header li a {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1)
 }
 
-#home h2
+#home h2,
 #about h2,
 #contact h2 {
     color: #003366;
@@ -59,7 +59,7 @@ header li a {
     color: rgb(6, 207, 248);
 }
 
-#footer {
+footer {
     background: #222;
     color: #aaa;
     text-align: center;
@@ -73,10 +73,10 @@ header li a:hover {
 }
 
 header li a:focus {
-    autline: 2px sollid #fff;
-    autline-offset: 2px;
+    outline: 2px sollid #d51c1c;
+    outline-offset: 2px;
     border-radius: 6px;
-    background-color: #rgba(255, 255, 255, 0.15);
+    background-color: rgba(255, 255, 255, 0.15);
 }
 
 header li a:active {
@@ -166,7 +166,7 @@ header li a:active {
         line-height: 1.2;
     }
 
-    headrer ul {
+    header ul {
         flex-direction: column;
         align-items: stretch;
         gap: 8px;
