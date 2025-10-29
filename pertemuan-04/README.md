@@ -11,4 +11,5 @@ Hari ini,23 Oktober 2025 saya mempelajari :
 <Ii>styling secation #home</Ii>
 <Ii>styling  footer</Ii>
 <Ii>styling navigasi</Ii>
-<Ii>styling header mode moobile</Ii>
+<Ii>styling header mode mobile</Ii>
+<ii>styling navigasi mode mobile</Ii>
