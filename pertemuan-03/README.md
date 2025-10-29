@@ -19,5 +19,6 @@ HARI INI KAMIS 09 OKTOBER 2025,SAYA BELAJAR:
   <Ii>membuat stying untuk selector ID #contact label>span</Ii>
    <Ii>membuat stying untuk selector ID #contact input dan text area</Ii>
    <Ii>membuat stying untuk selector ID #contact button</Ii>
+   <Ii>membuat stying untuk selector ID #contact button warna</Ii>
 
 </oI>  
