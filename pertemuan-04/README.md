@@ -8,4 +8,5 @@ Hari ini,23 Oktober 2025 saya mempelajari :
 <Ii>copy paste isi index.html (pertemuan-03) ke index.html (pertemuan-04)</Ii>
 <Ii>ganti internal css untuk body dan global reset</Ii>
 <Ii>styling header<Ii>
-<Ii>stying secation #home</Ii>
+<Ii>styling secation #home</Ii>
+<Ii>styling  footer</Ii>
