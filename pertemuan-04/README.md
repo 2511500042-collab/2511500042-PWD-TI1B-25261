@@ -10,3 +10,4 @@ Hari ini,23 Oktober 2025 saya mempelajari :
 <Ii>styling header<Ii>
 <Ii>styling secation #home</Ii>
 <Ii>styling  footer</Ii>
+<Ii>styling navigasi</Ii>
