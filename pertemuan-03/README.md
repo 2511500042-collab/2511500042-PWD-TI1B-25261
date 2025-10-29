@@ -16,6 +16,6 @@ HARI INI KAMIS 09 OKTOBER 2025,SAYA BELAJAR:
   <Ii>membuat stying untuk selector ID #contact h2</Ii>
   <Ii>membuat stying untuk selector ID #contact</Ii>
   <Ii>membuat stying untuk selector ID #contact label</Ii>
+  <Ii>membuat stying untuk selector ID #contact label>span</Ii>
 
-  
 </oI>  
