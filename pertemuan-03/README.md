@@ -12,5 +12,7 @@ HARI INI KAMIS 09 OKTOBER 2025,SAYA BELAJAR:
   <Ii>membuat stying untuk selector ID #about elemen p</Ii>
   <Ii>membuat stying untuk selector ID #about strong </Ii>
   <Ii>membuat stying untuk selector ID #about mode responsif (mobile) </Ii>
+  <Ii>membuat stying untuk selector ID #contact</Ii>
+  <Ii>membuat stying untuk selector ID #contact h2</Ii>
   
 </oI>  
