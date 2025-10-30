@@ -9,3 +9,5 @@ HARI INI RABU 22 OKTOBER 2025, SAYA MEMPELAJARI :
 <Ii>copy index.html dan style.css folder pertemuan-04</Ii>
 <Ii>tombol humberger</Ii>
 <Ii>class menu-toggle<Ii>
+<Ii>class menu-toggle mobile<Ii>
+
