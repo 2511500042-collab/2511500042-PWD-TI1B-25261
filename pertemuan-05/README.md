@@ -13,3 +13,4 @@ HARI INI RABU 22 OKTOBER 2025, SAYA MEMPELAJARI :
 <Ii>styling nav mobile</Ii>
 <Ii>styling nav menu mobile </Ii>
 <Ii>membuat script.js</Ii>
+<Ii>latihan validasiformula sebelum submit</Ii>
