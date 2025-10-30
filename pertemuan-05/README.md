@@ -3,4 +3,7 @@
 NIM: 2511500042<br>
 NAMA: WABIHAMDIKA<br>
 
-HARI INI RABU 22 OKTOBER 2025, SAYA MEMPELAJARI;
+HARI INI RABU 22 OKTOBER 2025, SAYA MEMPELAJARI :
+
+<oI>
+<Ii>copy index.html dan style.css folder pertemuan-04</Ii>
