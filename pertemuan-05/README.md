@@ -15,3 +15,4 @@ HARI INI RABU 22 OKTOBER 2025, SAYA MEMPELAJARI :
 <Ii>membuat script.js</Ii>
 <Ii>latihan validasi formula sebelum submit</Ii>
 <Ii>latihan ganti teks tombol saat menu aktif</Ii>
+<Ii>latihan ucapan otomatis saat halaman dimuat</Ii>
