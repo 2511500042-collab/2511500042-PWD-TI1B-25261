@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Judul halaman halo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Header</h1>
+        <button class="menu-toggle" id="menutoggle" aria-label="toggle Navigation">&#9776;
+            </button>
+        <nav>
+            <ul>
+                <li><a href="#home">Beranda</a></li>
+                <li><a href="#about">Tentang</a></li>
+                <li><a href="#contact">Kontak</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home">
+            <h2>Selamat Datang</h2>
+            <p>ini contoh paragraf HTML.</p>
+        </section>
+        <section id="about">
+
+            <h2>Tentang kami</h2>
+            <p> <strong>Nama:</strong>WABIHAMDIKA&#128512;</p>
+            <p> <strong>Nim:</strong>2511500042</p>
+            <p> <strong>Tempat Lahir:</strong>BABAT</p>
+            <p> <strong>Tanggal Lahir:</strong>05 NOVEMBER 2006</p>
+            <p> <strong>Hobi:</strong>MAIN GAME</p>
+            <p> <strong>Pasangan:</strong>SEDANG DI USAHAKAN&#128546;</p>
+            <p> <strong>Pekerjaan:</strong>MAHASISWA</p>
+            <p> <strong>Nama Ayah:</strong>SUPRIADI</p>
+            <p> <strong>Nama Ibu:</strong>ERMAINI</p>
+            <p> <strong>Nama Kakak:</strong>SIL,ANIE,ANTI,ARDILA</p>
+            <p> <strong>Nama Adek:</strong>-</p>
+
+        </section>
+        <section id="contact">
+            <h2>Kontak Kami</h2>
+            <form action="" method="GET">
+
+                <label for="TxtNama">
+                    <span>Nama:</span>
+                    <input type="text" id="TxtNama" name="TxtNama" placeholder="Masuk Nama" required
+                        autocomplete="name">
+                </label>
+
+                <label for="Txtemail">
+                    <span>Email:</span>
+                    <input type="Email" id="texemail" placeholder="Masuk email" required autocomplete="email">
+                </label>
+
+                <label for="Txtpesan">
+                    <span>Pesan:</span>
+                    <textarea id="Txtpesan" name="Txtpesan" Rows="4" placeholder="Tulis Pesan Anda..."
+                        required></textarea>
+                </label>
+
+                <button Type="Submit">Kirim</button>
+                <button Type="Reset">Batal</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 wabihamdika [2511500042]</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
