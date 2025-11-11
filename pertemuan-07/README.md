@@ -1,9 +1,9 @@
-# Pertemuan-07
+# pertemuan-07
 
-NIM : 2511500042<br>
+NIM :2511500042<br>
 NAMA : WABIHAMDIKA<br>
 <br><br>
-HARI INI SELASA 11. NOVEMBER 2025 SAYA BELAJAR:<br>
+hari ini selasa, 11 november 2025 saya belajar<br>
 <oI>
-  <Ii>copy seluruh file dari eleraning (punya dosen) untuk latihan pertemuan-07</Ii>
+  <Ii>copy seluruh file dari eleraning (punya dosen) untuk latihan pertemuan-07<br>
   </oI>
