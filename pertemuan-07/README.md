@@ -10,4 +10,5 @@ hari ini selasa, 11 november 2025 saya belajar<br>
   <Ii>isi get_proses.php</Ii>
   <Ii>session di get_proses.php</Ii>
   <Ii>menampilakan session darri get_proses.php ke get.php<Ii>
+  <Ii>redirect dari get_proses.php ke get.php<Ii>
   </oI>
