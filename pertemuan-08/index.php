@@ -50,6 +50,36 @@ endif;
       echo "nama saya wabihamdika";
       ?>
       <p>Ini contoh paragraf HTML.</p>
+       <section id="entry-data">
+      <h2>entry data MAHASISWA</h2>
+      <form action="proses_mahasiswa.php" method="POST">
+
+        <label for="txtNamaMhs"><span>NIM:</span>
+          <input type="text" id="txtNamaMhs" name="txtNamaMhs" placeholder="Masukkan NIM.." required>
+        </label>
+
+        <label for="txtNIM"><span>NIM:</span>
+          <input type="text" id="txtNIM" name="txtNIM" placeholder="Masukkan Nama lengkap" required>
+        </label>
+
+        <label for="txtPesan"><span>Pesan Anda:</span>
+          <textarea id="txtPesan" name="txtPesan" rows="4" placeholder="Tulis pesan anda..." required></textarea>
+          <small id="charCount">0/200 karakter</small>
+        </label>
+
+
+        <button type="submit">Kirim</button>
+        <button type="reset">Batal</button>
+      </form>
+
+      <?php if (!empty($sesnama)): ?>
+        <br><hr>
+        <h2>Yang menghubungi kami</h2>
+        <p><strong>Nama :</strong> <?php echo $sesnama ?></p>
+        <p><strong>Email :</strong> <?php echo $sesemail ?></p>
+        <p><strong>Pesan :</strong> <?php echo $sespesan ?></p>
+      <?php endif; ?>
+
     </section>
  <section id="about">
             <?php

@@ -11,4 +11,5 @@ Proses saya mengerjakan UTS ini sebagai berikut:<br>
   <li>silahkan diisi sesuai proses pengerjaan kalian masing-masing</li>
   <Ii> mengubah isi tentang saya</Ii>
   <Ii> menambahkan etity</Ii>
+  <Ii> menambahkan entry data mahasiswa<Ii>
 </ol>
