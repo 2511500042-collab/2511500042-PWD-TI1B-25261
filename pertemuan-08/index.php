@@ -55,13 +55,13 @@ endif;
             <?php
             $nama = "wabihamdika &#128526";
             $nim = "2511500042";
-            $tempat_lahir = "babat";
-            $tanggal_lahir = "05 november 2006";
-            $hobi = "Main game";
-            $pasangan = "hts";
+            $tempat_lahir = "babat👌";
+            $tanggal_lahir = "05 november 2006😊";
+            $hobi = "Main game👾";
+            $pasangan = "hts😒";
             $pekerjaan = "MAHASISWA";
-            $orang_tua = "supriadi dan ermaini";
-            $kakak = "sil,anie,anti,ardila";
+            $orang_tua = "supriadi dan ermaini😍";
+            $kakak = "sil,anie,anti,ardila👍";
             $adik = "-";
             ?>
       <h2>Tentang Saya</h2>
