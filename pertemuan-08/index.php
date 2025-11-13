@@ -67,19 +67,19 @@ endif;
       <h2>Tentang Saya</h2>
       <p><strong>NIM:</strong>
         <?php
-        echo $NIM;
+        echo $nim 
         ?>
       </p>
       <p><strong>Nama Lengkap:</strong>
         <?php
-        echo $Nama;
+        echo  $nama
         ?> &#128526;
       </p>
       <p><strong>Tempat Lahir:</strong> <?php echo  $tempat_lahir; ?></p>
       <p><strong>Tanggal Lahir:</strong> <?php echo  $tanggal_lahir; ?> </p>
-      <p><strong>Hobi:</strong> <?php echo  $hobi &#127926; ?></p>
-      <p><strong>Pasangan:</strong> <?php echo $pasangan &hearts; ?></p>
-      <p><strong>Pekerjaan:</strong> <?php echo $pekerjaan &copy; 2025 ?></p>
+      <p><strong>Hobi:</strong> <?php echo  $hobi; ?></p>
+      <p><strong>Pasangan:</strong> <?php echo $pasangan; ?></p>
+      <p><strong>Pekerjaan:</strong> <?php echo $pekerjaan; ?></p>
       <p><strong>Nama Orang Tua:</strong> <?php echo $orang_tua ?></p>
       <p><strong>Nama Kakak:</strong> <?php echo $kakak ?></p>
       <p><strong>Nama Adik:</strong> <?php echo $adik ?></p>
