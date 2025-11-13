@@ -77,83 +77,6 @@ endif;
         <button type="reset">Batal</button>
       </form>
 
-      <?php
-if (session_status() === PHP_SESSION_NONE) {
-    session_start();
-}
-
-if ($_SERVER["REQUEST_METHOD"] === "POST") {
-    $nim            = $_POST["nim"];
-    $nama_lengkap   = $_POST["nama"];
-    $tempat_lahir   = $_POST["tempat_lahir"];
-    $tanggal_lahir  = $_POST["tanggal_lahir"];
-    $hobi           = $_POST["hobi"];
-    $pasangan       = $_POST["pasangan"];
-    $pekerjaan      = $_POST["pekerjaan"];
-    $nama_ortu      = $_POST["nama_ortu"];
-    $nama_kakak     = $_POST["nama_kakak"];
-    $nama_adik      = $_POST["nama_adik"];
-
-    $_SESSION["nim"]           = $nim;
-    $_SESSION["nama_lengkap"]  = $nama_lengkap;
-    $_SESSION["tempat_lahir"]  = $tempat_lahir;
-    $_SESSION["tanggal_lahir"] = $tanggal_lahir;
-    $_SESSION["hobi"]          = $hobi;
-    $_SESSION["pasangan"]      = $pasangan;
-    $_SESSION["pekerjaan"]     = $pekerjaan;
-    $_SESSION["nama_ortu"]     = $nama_ortu;
-    $_SESSION["nama_kakak"]    = $nama_kakak;
-    $_SESSION["nama_adik"]     = $nama_adik;
-
-    header("Location: about.php");
-    exit;
-}
-?>
-
-<!DOCTYPE html>
-<html lang="id">
-<head>
-    <meta charset="UTF-8">
-    <title>Form Biodata</title>
-</head>
-<body>
-    <h2>Form Biodata</h2>
-    <form method="POST" action="">
-        <label>NIM:</label><br>
-        <input type="text" name="nim" required><br><br>
-
-        <label>Nama Lengkap:</label><br>
-        <input type="text" name="nama" required><br><br>
-
-        <label>Tempat Lahir:</label><br>
-        <input type="text" name="tempat_lahir"><br><br>
-
-        <label>Tanggal Lahir:</label><br>
-        <input type="date" name="tanggal_lahir"><br><br>
-
-        <label>Hobi:</label><br>
-        <input type="text" name="hobi"><br><br>
-
-        <label>Pasangan:</label><br>
-        <input type="text" name="pasangan"><br><br>
-
-        <label>Pekerjaan:</label><br>
-        <input type="text" name="pekerjaan"><br><br>
-
-        <label>Nama Orang Tua:</label><br>
-        <input type="text" name="nama_ortu"><br><br>
-
-        <label>Nama Kakak:</label><br>
-        <input type="text" name="nama_kakak"><br><br>
-
-        <label>Nama Adik:</label><br>
-        <input type="text" name="nama_adik"><br><br>
-
-        <button type="submit">Simpan</button>
-    </form>
-</body>
-</html>
-
       <?php if (!empty($sesnama)): ?>
         <br><hr>
         <h2>Yang menghubungi kami</h2>
@@ -199,25 +122,45 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
 
     <section id="contact">
       <h2>Kontak Kami</h2>
-      <form action="proses.php" method="POST">
+       <section id="Data mahasiswa">
+      <h2>Entry Data Mahasiswa</h2>
+      <form action="proses_entry.php" method="POST">
+        <label for="nim">NIM:</label>
+        <input type="text" id="nim" name="nim" placeholder="Masukkan NIM" required>
 
-        <label for="txtNama"><span>Nama:</span>
-          <input type="text" id="txtNama" name="txtNama" placeholder="Masukkan nama" required autocomplete="name">
-        </label>
+        <label for="nama">Nama Lengkap:</label>
+        <input type="text" id="nama" name="nama" placeholder="Masukkan nama lengkap" required>
 
-        <label for="txtEmail"><span>Email:</span>
-          <input type="email" id="txtEmail" name="txtEmail" placeholder="Masukkan email" required autocomplete="email">
-        </label>
+        <label for="tempat_lahir">Tempat Lahir:</label>
+        <input type="text" id="tempat_lahir" name="tempat_lahir" required>
 
-        <label for="txtPesan"><span>Pesan Anda:</span>
-          <textarea id="txtPesan" name="txtPesan" rows="4" placeholder="Tulis pesan anda..." required></textarea>
-          <small id="charCount">0/200 karakter</small>
-        </label>
+        <label for="tanggal_lahir">Tanggal Lahir:</label>
+        <input type="date" id="tanggal_lahir" name="tanggal_lahir" required>
 
+        <label for="hobi">Hobi:</label>
+        <input type="text" id="hobi" name="hobi">
 
-        <button type="submit">Kirim</button>
-        <button type="reset">Batal</button>
+        <label for="pasangan">Pasangan:</label>
+        <input type="text" id="pasangan" name="pasangan">
+
+        <label for="pekerjaan">Pekerjaan:</label>
+        <input type="text" id="pekerjaan" name="pekerjaan">
+
+        <label for="nama_ortu">Nama Orang Tua:</label>
+        <input type="text" id="nama_ortu" name="nama_ortu">
+
+        <label for="nama_kakak">Nama Kakak:</label>
+        <input type="text" id="nama_kakak" name="nama_kakak">
+
+        <label for="nama_adik">Nama Adik:</label>
+        <input type="text" id="nama_adik" name="nama_adik">
+
+        <div class="button-group">
+          <button type="submit">Kirim</button>
+          <button type="reset">Batal</button>
+        </div>
       </form>
+    </section>
 
       <?php if (!empty($sesnama)): ?>
         <br><hr>
