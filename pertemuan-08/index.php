@@ -54,13 +54,18 @@ endif;
       <h2>entry data MAHASISWA</h2>
       <form action="proses_mahasiswa.php" method="POST">
 
-        <label for="txtNamaMhs"><span>NIM:</span>
-          <input type="text" id="txtNamaMhs" name="txtNamaMhs" placeholder="Masukkan NIM.." required>
+        <label for="txtNamaMhs"><span>NAMA:</span>
+          <input type="text" id="txtNamaMhs" name="txtNamaMhs" placeholder="Masukkan Nama lengkap.." required>
         </label>
 
         <label for="txtNIM"><span>NIM:</span>
-          <input type="text" id="txtNIM" name="txtNIM" placeholder="Masukkan Nama lengkap" required>
+          <input type="text" id="txtNIM" name="txtNIM" placeholder="Masukkan NIM..." required>
         </label>
+        
+         <label for="txtEmailMhs"><span>Email:</span>
+          <input type="text" id="txtEmailMhs" name="txtEmailMhs" placeholder="Masukkan Email mhs" required>
+        </label>
+
 
         <label for="txtPesan"><span>Pesan Anda:</span>
           <textarea id="txtPesan" name="txtPesan" rows="4" placeholder="Tulis pesan anda..." required></textarea>
@@ -71,6 +76,83 @@ endif;
         <button type="submit">Kirim</button>
         <button type="reset">Batal</button>
       </form>
+
+      <?php
+if (session_status() === PHP_SESSION_NONE) {
+    session_start();
+}
+
+if ($_SERVER["REQUEST_METHOD"] === "POST") {
+    $nim            = $_POST["nim"];
+    $nama_lengkap   = $_POST["nama"];
+    $tempat_lahir   = $_POST["tempat_lahir"];
+    $tanggal_lahir  = $_POST["tanggal_lahir"];
+    $hobi           = $_POST["hobi"];
+    $pasangan       = $_POST["pasangan"];
+    $pekerjaan      = $_POST["pekerjaan"];
+    $nama_ortu      = $_POST["nama_ortu"];
+    $nama_kakak     = $_POST["nama_kakak"];
+    $nama_adik      = $_POST["nama_adik"];
+
+    $_SESSION["nim"]           = $nim;
+    $_SESSION["nama_lengkap"]  = $nama_lengkap;
+    $_SESSION["tempat_lahir"]  = $tempat_lahir;
+    $_SESSION["tanggal_lahir"] = $tanggal_lahir;
+    $_SESSION["hobi"]          = $hobi;
+    $_SESSION["pasangan"]      = $pasangan;
+    $_SESSION["pekerjaan"]     = $pekerjaan;
+    $_SESSION["nama_ortu"]     = $nama_ortu;
+    $_SESSION["nama_kakak"]    = $nama_kakak;
+    $_SESSION["nama_adik"]     = $nama_adik;
+
+    header("Location: about.php");
+    exit;
+}
+?>
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Form Biodata</title>
+</head>
+<body>
+    <h2>Form Biodata</h2>
+    <form method="POST" action="">
+        <label>NIM:</label><br>
+        <input type="text" name="nim" required><br><br>
+
+        <label>Nama Lengkap:</label><br>
+        <input type="text" name="nama" required><br><br>
+
+        <label>Tempat Lahir:</label><br>
+        <input type="text" name="tempat_lahir"><br><br>
+
+        <label>Tanggal Lahir:</label><br>
+        <input type="date" name="tanggal_lahir"><br><br>
+
+        <label>Hobi:</label><br>
+        <input type="text" name="hobi"><br><br>
+
+        <label>Pasangan:</label><br>
+        <input type="text" name="pasangan"><br><br>
+
+        <label>Pekerjaan:</label><br>
+        <input type="text" name="pekerjaan"><br><br>
+
+        <label>Nama Orang Tua:</label><br>
+        <input type="text" name="nama_ortu"><br><br>
+
+        <label>Nama Kakak:</label><br>
+        <input type="text" name="nama_kakak"><br><br>
+
+        <label>Nama Adik:</label><br>
+        <input type="text" name="nama_adik"><br><br>
+
+        <button type="submit">Simpan</button>
+    </form>
+</body>
+</html>
 
       <?php if (!empty($sesnama)): ?>
         <br><hr>

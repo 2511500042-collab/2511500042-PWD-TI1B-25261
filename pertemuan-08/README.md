@@ -12,4 +12,5 @@ Proses saya mengerjakan UTS ini sebagai berikut:<br>
   <Ii> mengubah isi tentang saya</Ii>
   <Ii> menambahkan etity</Ii>
   <Ii> menambahkan entry data mahasiswa<Ii>
+  <Ii> menambahkan secetion star</Ii>
 </ol>
