@@ -13,5 +13,5 @@ Proses saya mengerjakan UTS ini sebagai berikut:<br>
   <Ii> menambahkan etity</Ii>
   <Ii> menambahkan entry data mahasiswa<Ii>
   <Ii> menambahkan secetion star</Ii>
-  <Ii> menambah sttle.css</Ii>
+  <Ii> menambah style.css</Ii>
 </ol>

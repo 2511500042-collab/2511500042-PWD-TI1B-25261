@@ -100,15 +100,15 @@ endif;
     <section id="about">
       <h2>Tentang Saya</h2>
       <div class="about-container">
-        <p><strong>NIM:</strong> <?php  ; ?></p>
-        <p><strong>Nama Lengkap:</strong> <?php  ; ?></p>
-        <p><strong>Tempat Lahir:</strong> <?php  ; ?></p>
-        <p><strong>Tanggal Lahir:</strong> <?php ; ?></p>
-        <p><strong>Hobi:</strong> <?php ; ?></p>
-        <p><strong>Pasangan:</strong> <?php ; ?></p>
-        <p><strong>Pekerjaan:</strong> <?php ; ?></p>
-        <p><strong>Nama Orang Tua:</strong> <?php; ?></p>
-        <p><strong>Nama Kakak:</strong> <?php ; ?></p>
+        <p><strong>NIM: 2511500042</strong> <?php  ; ?></p>
+        <p><strong>Nama Lengkap: Wabihamdika👾</strong> <?php  ; ?></p>
+        <p><strong>Tempat Lahir: 05 November 2006😊</strong> <?php  ; ?></p>
+        <p><strong>Tanggal Lahir: babat</strong> <?php ; ?></p>
+        <p><strong>Hobi: main game</strong> <?php ; ?></p>
+        <p><strong>Pasangan: hts</strong> <?php ; ?></p>
+        <p><strong>Pekerjaan: mahasiswa</strong> <?php ; ?></p>
+        <p><strong>Nama Orang Tua: bapak supriadi ibu ermaini</strong> <?php; ?></p>
+        <p><strong>Nama Kakak: sil,anie,anti,ardila</strong> <?php ; ?></p>
         <p><strong>Nama Adek:</strong> <?php  ?></p>
       </div>
     </section>
