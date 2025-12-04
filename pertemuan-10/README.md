@@ -8,4 +8,5 @@ kelompok: TI1B<br>
 mengekstra perttemuan 10<br>
 <ol>
 <Ii> menambahkan file baru pertemuan 10</Ii>
+<Ii> membuat database diphpmyadmin</Ii>
 
